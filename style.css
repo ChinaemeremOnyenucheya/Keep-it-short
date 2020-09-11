@@ -491,9 +491,11 @@ li{
 
 .shorten-links-list .old-link{display: none;}
 
-.move-left {display: flex;}
+.shorten-links-list .new-link{width: 155px; margin-right: 5px;}
 
-.copy-button {width: 60px;}
+.move-left {margin-left: 0;}
+
+.copy-button {width: 70px;}
 
 .section-between #housing-lettering{
  	width: 80%; 
