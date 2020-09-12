@@ -358,12 +358,47 @@ li{
 
 .fab:hover{color:#2acfcf;}
   /*responsiveness*/
+@media only screen and (max-width: 320px) {
+.navbar{
+  margin: 20px 0;
+  padding: 0 5px; 
+  display: flex;
+  }
+
+
+.picture img{width: 255px !important; }
+
+.grid-container{width: 265px;}
+
+.grid-item {width: 265px !important;}
+
+#description{font-size: 0.9rem !important;}
+
+.shorten-links-list{
+  width: 88%;
+  margin-top: 0;
+  margin-left:2px;
+  margin-right: 0;
+  }
+
+.move-left {padding-right: 0; margin-left: 0;}
+
+hr{
+  margin-right:-85px !important;
+  margin-left:-85px !important;
+  }
+
+.section-three p{margin-top: 25%; font-size: 1.6rem;}
+
+}
+
 
 @media only screen and (max-width: 375px) {
   
 .navbar{
-	margin: 20px 20px; 
-	display: flex;
+	margin: 20px 0;
+  padding: 0 8px; 
+  display: flex;
   }
 
 .navbar,.navbar-link {flex-direction: column;}
@@ -491,11 +526,9 @@ li{
 
 .shorten-links-list .old-link{display: none;}
 
-.shorten-links-list .new-link{width: 155px; margin-right: 5px;}
+.move-left {display: flex;}
 
-.move-left {margin-left: 0;}
-
-.copy-button {width: 70px;}
+.copy-button {width: 60px;}
 
 .section-between #housing-lettering{
  	width: 80%; 
