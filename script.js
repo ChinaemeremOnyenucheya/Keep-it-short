@@ -50,7 +50,10 @@ shortenButton.addEventListener("click",() =>{
 
 	            shortenList.insertBefore(newListElement, shortenList.childNodes[0]);
 	
-                inputField.value = "";}
+                inputField.value = "";
+                let linkMessage = document.getElementById("notification");
+                linkMessage.textContent = " ";
+            }
 	
         })
 
