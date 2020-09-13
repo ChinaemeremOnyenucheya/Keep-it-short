@@ -402,9 +402,13 @@ li{
   }
 
 .move-left {
-  padding-left: 2px;
-  padding-right: 0; 
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 4px; 
   margin:0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 270px;
   }
 
@@ -560,7 +564,7 @@ hr{
 .shorten-links-list li{
   display: flex;
   flex-direction: column;
-  height: 45px;
+  height: 64px;
   width: 275px;
   margin-top: 1.8%;
   margin-left: auto;
@@ -569,16 +573,21 @@ hr{
   }
 
 .move-left {
-  display: flex;
   padding-left: 0;
-  padding-right: 0; 
+  padding-right: 0;
+  padding-top: 4px; 
   margin:0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 270px;
   }
 
+.move-left .new-link {text-align: center;}
+
 .shorten-links-list .old-link{display: none;}
 
-.copy-button {width: 60px;}
+.copy-button {width: 70px;}
 
 .section-between #housing-lettering{
  	width: 80%; 
