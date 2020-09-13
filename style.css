@@ -381,13 +381,14 @@ li{
 #description{font-size: 0.9rem !important;}
 
 .list-container{
-  width:280px; 
+  width:295px;
+  margin-top: 4px; 
   margin-left: auto;
   margin-right: auto;
   }
 
 .shorten-links-list{
-  width: 100%;
+  width: 295px;
   margin-top: 0;
   margin-left:auto;
   margin-right: auto;
@@ -397,14 +398,14 @@ li{
   padding-left:4px;
   margin-left: auto;
   margin-right: auto;
-  width: 240px;
+  width: 275px;
   }
 
 .move-left {
-  padding-left: 4px;
+  padding-left: 2px;
   padding-right: 0; 
   margin:0;
-  width: 260px;
+  width: 270px;
   }
 
 hr{
@@ -544,7 +545,7 @@ hr{
   }
 
 .list-container{
-  width:290px; 
+  width:295px; 
   margin-left: auto;
   margin-right: auto;
   }
@@ -560,7 +561,7 @@ hr{
   display: flex;
   flex-direction: column;
   height: 45px;
-  width: 260px;
+  width: 275px;
   margin-top: 1.8%;
   margin-left: auto;
   margin-right: auto;
@@ -569,10 +570,10 @@ hr{
 
 .move-left {
   display: flex;
-  padding-left: 4px;
+  padding-left: 0;
   padding-right: 0; 
   margin:0;
-  width: 260px;
+  width: 270px;
   }
 
 .shorten-links-list .old-link{display: none;}
